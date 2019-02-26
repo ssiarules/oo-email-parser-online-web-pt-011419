@@ -4,4 +4,5 @@
 # or whitespace (' ').
 
 class EmailParser
+  attr_reader :email_name 
 end 
