@@ -5,4 +5,8 @@
 
 class EmailParser
   attr_reader :email_name 
+  
+  def intialize(email_name)
+    @email_name = email_name
+  end 
 end 
